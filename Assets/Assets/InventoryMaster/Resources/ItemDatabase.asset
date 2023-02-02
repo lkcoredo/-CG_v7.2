@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4c29ddb3cf21d4e9b0596a8ba26af7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    itemID: 0
+    itemDesc: 'If you drink this nice bottle you will get some health back.
+
+
+      +
+      20 Health'
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Epee en fer
+    itemID: 1
+    itemDesc: Epee de fer de bonne facture
+    itemIcon: {fileID: 21300000, guid: 439486a4aa566984eba71b527d0ceaf7, type: 3}
+    itemModel: {fileID: 131212394159993540, guid: a8913c2f0be563042a21c5d612a6d76e, type: 3}
+    itemValue: 720
+    itemType: 1
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 10
+  - itemName: "Arbal\xE8te"
+    itemID: 2
+    itemDesc: "Arbal\xE8te de bonne facture"
+    itemIcon: {fileID: 21300000, guid: 0a0fa0e9f0d920b4b8038b47ea17f545, type: 3}
+    itemModel: {fileID: 4758738647890567321, guid: 4b7a4c4df564c9e4ca774012bbeb7e5e, type: 3}
+    itemValue: 850
+    itemType: 1
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 20
+  - itemName: Casque
+    itemID: 3
+    itemDesc: Casque de bonne facture
+    itemIcon: {fileID: 21300000, guid: 98f5e61dc86e9814d8c8d9e8e54ac417, type: 3}
+    itemModel: {fileID: 8091132155643928169, guid: 8ebb8130cb56d0749ae684774db40cf4, type: 3}
+    itemValue: 250
+    itemType: 4
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 20
+  - itemName: Jambon
+    itemID: 4
+    itemDesc: Jambon de Porc
+    itemIcon: {fileID: 21300000, guid: b29cbbd10ecf3fd40991d4734d556c17, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 20
+    itemType: 2
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Faim
+      attributeValue: 20
+  - itemName: Pain
+    itemID: 5
+    itemDesc: Pain au segle
+    itemIcon: {fileID: 21300000, guid: 0288dbaa9a46b7a4fa8f0b0b773b6024, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 2
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Faim
+      attributeValue: 5
+  - itemName: Bougie1
+    itemID: 6
+    itemDesc: bougie
+    itemIcon: {fileID: 21300000, guid: e467a7f7b7a4a714db7da4a6ada82425, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Bougie2
+    itemID: 7
+    itemDesc: bougie
+    itemIcon: {fileID: 21300000, guid: e467a7f7b7a4a714db7da4a6ada82425, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Bougie3
+    itemID: 8
+    itemDesc: bougie
+    itemIcon: {fileID: 21300000, guid: e467a7f7b7a4a714db7da4a6ada82425, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Couteau
+    itemID: 9
+    itemDesc: couteau
+    itemIcon: {fileID: 21300000, guid: 7f044313c0f1c164f85c40185e3a8b9b, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: "Cuill\xE8re"
+    itemID: 10
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 4dc6235aa74c00445beaba2f9f9a52be, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Epices
+    itemID: 11
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: a9893eef89a9a0742b835e8296428609, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 35
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: "Rouleau \xE0 patisserie"
+    itemID: 12
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 6164aacfc48a773428624cb9bfa8b376, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Pot
+    itemID: 13
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 40c0544742cafa147882381221ff228a, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Assiette
+    itemID: 14
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 69eeb54ccac4ed64cbe883fa8bdc2726, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Poelle
+    itemID: 15
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: a326db54ef2812f4fb1b1f6266af820d, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Mug
+    itemID: 16
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 3ef50c9f15ba4f344a7e2ccfee1fab0b, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 2
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Soif
+      attributeValue: 20
+  - itemName: Mug2
+    itemID: 17
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 3ef50c9f15ba4f344a7e2ccfee1fab0b, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Pichet
+    itemID: 18
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 3ef50c9f15ba4f344a7e2ccfee1fab0b, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 5
+    itemType: 2
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Soif
+      attributeValue: 80
+  - itemName: NonIdentifie
+    itemID: 19
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 3ef50c9f15ba4f344a7e2ccfee1fab0b, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Fourchette
+    itemID: 20
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: c43cc4452dae2ed46b38dd2d253c284e, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 5
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Bougie4
+    itemID: 21
+    itemDesc: 
+    itemIcon: {fileID: 21300038, guid: e467a7f7b7a4a714db7da4a6ada82425, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 10
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: PotBougie
+    itemID: 22
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 9120f624ae0e05e4488b87d2ba6ac652, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 25
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Bol
+    itemID: 23
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: da4485cf717130847bc69dcdfa8ac824, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 5
+    itemType: 0
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes: []
+  - itemName: Bol2
+    itemID: 24
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: da4485cf717130847bc69dcdfa8ac824, type: 3}
+    itemModel: {fileID: 3768277826589981831, guid: dcbd02f2443f6284a977ce5a012c8a60, type: 3}
+    itemValue: 5
+    itemType: 2
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Soif
+      attributeValue: 20
+  - itemName: Bouteille
+    itemID: 25
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: a9893eef89a9a0742b835e8296428609, type: 3}
+    itemModel: {fileID: 7770940952394189959, guid: e97a9ca9169b6b94db435d540eba9e6f, type: 3}
+    itemValue: 10
+    itemType: 2
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Soif
+      attributeValue: 50

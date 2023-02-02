@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0fc459fefb891f469310f9c4d0d5dbd, type: 3}
+  m_Name: Bolt
+  m_EditorClassIdentifier: 
+  name: Carreau
+  description: Carreau
+  visual: {fileID: 21300000, guid: 491316f0a8f67f643a0f640da5ca55f6, type: 3}
+  prefab: {fileID: 8263738947190589027, guid: 33881ddda9b79324ca2bd053a7f849ae, type: 3}
+  stackable: 0
+  maxStack: 0
+  healthEffect: 0
+  hungerEffect: 0
+  thirstEffect: 0
+  energyEffect: 0
+  temperatureEffect: 0
+  armorPoints: 0
+  itemType: 0
+  equipmentType: 2
+  weaponType: 4
