@@ -1,0 +1,295 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'fr' Physical Memory: 16273 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Documents/SOCLE_STUDIO/CG_v7.1GITHUB/-CG_v7.2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+25875
+Successfully changed project path to: C:/Users/User/Documents/SOCLE_STUDIO/CG_v7.1GITHUB/-CG_v7.2
+C:/Users/User/Documents/SOCLE_STUDIO/CG_v7.1GITHUB/-CG_v7.2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 64.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/SOCLE_STUDIO/CG_v7.1GITHUB/-CG_v7.2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     10195 MB
+    Driver:   31.0.12029.10015
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005392 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.528 seconds
+Domain Reload Profiling:
+	ReloadAssembly (528ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (378ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003112 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Domain Reload Profiling:
+	ReloadAssembly (859ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (652ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2174 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (12.5 MB). Loaded Objects now: 2656.
+Memory consumption went from 144.7 MB to 132.2 MB.
+Total: 12.498500 ms (FindLiveObjects: 5.013900 ms CreateObjectMapping: 0.276100 ms MarkObjects: 4.805400 ms  DeleteObjects: 2.400900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35499.647422 seconds.
+  path: Assets/Scripts/terrain/NewLayer 1.terrainlayer
+  artifactKey: Guid(5fc076d517b9bc64f9e2dd080469e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/terrain/NewLayer 1.terrainlayer using Guid(5fc076d517b9bc64f9e2dd080469e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5120eef2738831555ecb5aa4d85f6e') in 0.180415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.230332 seconds.
+  path: Assets/Assets/MapMagic/Demo/LandTextures/GrassGreen.tif
+  artifactKey: Guid(e63c7e66aca47a244b9e4a24948d0a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/MapMagic/Demo/LandTextures/GrassGreen.tif using Guid(e63c7e66aca47a244b9e4a24948d0a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24aa9b9f6f366a92aba24aef29d13b41') in 0.020660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/MapMagic/Demo/LandTextures/CliffBright.tif
+  artifactKey: Guid(418621e72fed41a47a8ee91391b8239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/MapMagic/Demo/LandTextures/CliffBright.tif using Guid(418621e72fed41a47a8ee91391b8239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737b47507e770e12a6d92a461038d94b') in 0.007927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.547394 seconds.
+  path: Assets/Assets/MapMagic/Demo/TerrainLayers/GrassGreen.terrainlayer
+  artifactKey: Guid(af8a2f819cbf6644fbe743f8a2b4f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/MapMagic/Demo/TerrainLayers/GrassGreen.terrainlayer using Guid(af8a2f819cbf6644fbe743f8a2b4f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e915480bf5877e653f83d202891b0ac2') in 0.016549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.464104 seconds.
+  path: Assets/Assets/MapMagic/Demo/TerrainLayers/CliffBright.terrainlayer
+  artifactKey: Guid(240ea90774073d84cb4ef9b3c461e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/MapMagic/Demo/TerrainLayers/CliffBright.terrainlayer using Guid(240ea90774073d84cb4ef9b3c461e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053a47e641d45a11f5cfb6a12d0ce23b') in 0.011460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Terrain/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer
+  artifactKey: Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer using Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c9bc1f0506e9de8f42835f1972ef58') in 0.012626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer
+  artifactKey: Guid(a69a2994f1cedad49b1b79f1deb2310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer using Guid(a69a2994f1cedad49b1b79f1deb2310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeac5d9420231def657117ee23283af9') in 0.034754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Terrain/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer
+  artifactKey: Guid(6a3097ee6a39c594e8c63dae726b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer using Guid(6a3097ee6a39c594e8c63dae726b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09ad982aba23fb8d43b65e5d11de81a') in 0.021363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer
+  artifactKey: Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer using Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ea2c6d770f46715e80b7000dc41a36') in 0.027620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Sword_1/Texture/NewLayer.terrainlayer
+  artifactKey: Guid(70c49570687569c419f267ed4c4ca3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sword_1/Texture/NewLayer.terrainlayer using Guid(70c49570687569c419f267ed4c4ca3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3096ea7c610f4be5e38524a2dea1c13c') in 0.004702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Terrain/Scenes/NewLayer.terrainlayer
+  artifactKey: Guid(5cf1cb79b4491cb46af7739f05b1d243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Scenes/NewLayer.terrainlayer using Guid(5cf1cb79b4491cb46af7739f05b1d243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620c86a52dd0c954cc72c7b34da261a8') in 0.006710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/MapMagic/Demo/TerrainLayers/Gravel.terrainlayer
+  artifactKey: Guid(4afee262bdd7c9c4aa3935aa1f3f39e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/MapMagic/Demo/TerrainLayers/Gravel.terrainlayer using Guid(4afee262bdd7c9c4aa3935aa1f3f39e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5554ab67916facf30e82c12f5b0bae') in 0.016043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground_sediment_Aground_sediment_N8f4cab80efbd9e3e.terrainlayer
+  artifactKey: Guid(9c7d4d5e3449d7e438036fbc8377df9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground_sediment_Aground_sediment_N8f4cab80efbd9e3e.terrainlayer using Guid(9c7d4d5e3449d7e438036fbc8377df9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f72245177fd03d0c685ec349b1a4f49') in 0.023771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_pavementB_tiling_dirty_ApavementB_tiling_dirty_Nb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(230ea571846301b4397e4d82abc2bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_pavementB_tiling_dirty_ApavementB_tiling_dirty_Nb956af97c33fc3d7.terrainlayer using Guid(230ea571846301b4397e4d82abc2bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b5610be5ac379355e25112c0dde922') in 0.024564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/Photoscanned MoutainsRocks PBR/DemoScene/Layer01.terrainlayer
+  artifactKey: Guid(9f96b34098be68045aa2896ae2985c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Photoscanned MoutainsRocks PBR/DemoScene/Layer01.terrainlayer using Guid(9f96b34098be68045aa2896ae2985c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6778e59131bcb4cc6539c7d65172fae3') in 0.012589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/MapMagic/Demo/Compatibility/MicroSplat/microsplat_layer_Cliff_dark_1.terrainlayer
+  artifactKey: Guid(a6c2bf31cb37aaa408d48374718d5a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/MapMagic/Demo/Compatibility/MicroSplat/microsplat_layer_Cliff_dark_1.terrainlayer using Guid(a6c2bf31cb37aaa408d48374718d5a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079875756e3b482ecbfe62365c3fdaba') in 0.013910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Terrain/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer
+  artifactKey: Guid(56b2820651de357459e8d89d2b4f3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer using Guid(56b2820651de357459e8d89d2b4f3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934380a0a51f85379a8cc9189150f7aa') in 0.019901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/MapMagic/Demo/Compatibility/MicroSplat/microsplat_layer_Cliff_bright_0.terrainlayer
+  artifactKey: Guid(0c7fc5590597d7d4bb4d9b79edb53847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/MapMagic/Demo/Compatibility/MicroSplat/microsplat_layer_Cliff_bright_0.terrainlayer using Guid(0c7fc5590597d7d4bb4d9b79edb53847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cb2c98bbfc8ce2a4d3b677e069b0c7') in 0.012383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/MapMagic/Demo/Compatibility/MicroSplat/microsplat_layer_GreenGrass_2.terrainlayer
+  artifactKey: Guid(4fc9b315dbcf6634ba32674e2e5e0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/MapMagic/Demo/Compatibility/MicroSplat/microsplat_layer_GreenGrass_2.terrainlayer using Guid(4fc9b315dbcf6634ba32674e2e5e0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4137ad6da8ecc8042a7b9b1e492d56') in 0.015193 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
