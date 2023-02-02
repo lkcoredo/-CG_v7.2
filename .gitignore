@@ -24,7 +24,7 @@
 #textures
 
 # Library ~
-*ArtifactDB
+#ArtifactDB
 #SourceAssetDB
 #Artifacts
 #PlayerDataCache
