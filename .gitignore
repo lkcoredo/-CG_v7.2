@@ -9,14 +9,14 @@
 #UIElementsSchema
 
 # Assets ~
-*3D
-*AI
+#3D
+#AI
 *AssetsIn
 *Character
-*Icon
+#*Icon
 *Materials
-*Models
-*Prefabs
+#Models
+#Prefabs
 #SavedData
 #Scripts
 #StoredData
