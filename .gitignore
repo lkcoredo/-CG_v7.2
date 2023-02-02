@@ -1,6 +1,6 @@
 # Dossiers
 *Assets 
-*Library 
+#Library ~ 
 *Build
 #Packages
 #Logs
@@ -30,7 +30,7 @@
 *PlayerDataCache
 *PackageCache
 *BurstCache
-#Bee
-#Search
+*Bee
+*Search
 #ScriptAssemblies
-#ShaderCache
+*ShaderCache
