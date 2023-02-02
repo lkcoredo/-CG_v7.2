@@ -1,5 +1,5 @@
 # Dossiers
-*Assets 
+#Assets 
 #Library ~ 
 *Build
 #Packages
@@ -9,19 +9,19 @@
 #UIElementsSchema
 
 # Assets ~
-#3D
-#AI
+*3D
+*AI
 *AssetsIn
-#Character
-#Icon
-#Materials
-#Models
+*Character
+*Icon
+*Materials
+*Models
 *Prefabs
 #SavedData
 #Scripts
 #StoredData
-#Terrain
-#textures
+*Terrain
+*textures
 
 # Library ~
 *ArtifactDB
