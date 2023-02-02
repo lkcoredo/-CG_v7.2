@@ -28,9 +28,9 @@
 *SourceAssetDB
 *Artifacts
 *PlayerDataCache
-*PackageCache
-*BurstCache
-*Bee
-*Search
+#*PackageCache
+#*BurstCache
+#Bee
+#*Search
 #ScriptAssemblies
-*ShaderCache
+#ShaderCache
