@@ -1,29 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0fc459fefb891f469310f9c4d0d5dbd, type: 3}
-  m_Name: Armor
-  m_EditorClassIdentifier: 
-  name: Armure
-  description: Armure Chevalier
-  visual: {fileID: 21300000, guid: d13012f4abce7b241900001bf716f66e, type: 3}
-  prefab: {fileID: 3472556882088476249, guid: 9f26ece48e6360e41aaa049f2805cdb1, type: 3}
-  stackable: 0
-  maxStack: 0
-  healthEffect: 0
-  hungerEffect: 0
-  thirstEffect: 0
-  energyEffect: 0
-  temperatureEffect: 0
-  armorPoints: 30
-  itemType: 1
-  equipmentType: 1
-  weaponType: 5
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae5dbcf22db832839a11dfc473e6dd52c94e8258bd203b1b1f4dc1e02ea47d56
+size 799

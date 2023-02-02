@@ -1,29 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0fc459fefb891f469310f9c4d0d5dbd, type: 3}
-  m_Name: MedicalKit
-  m_EditorClassIdentifier: 
-  name: medical
-  description: medical
-  visual: {fileID: 21300000, guid: d3534110cd9754b4690714d84f1e3eaf, type: 3}
-  prefab: {fileID: 478118775031560431, guid: c6776ea35b3d59b46907ebd401b343ff, type: 3}
-  stackable: 0
-  maxStack: 0
-  healthEffect: 10
-  hungerEffect: 0
-  thirstEffect: 0
-  energyEffect: 0
-  temperatureEffect: 0
-  armorPoints: 0
-  itemType: 2
-  equipmentType: 2
-  weaponType: 4
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9c12b935929b6e27ab71e0928bb21d236e9f3375ee602fe0e392f9ad47bfed6
+size 795
