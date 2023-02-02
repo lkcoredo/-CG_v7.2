@@ -25,9 +25,9 @@
 
 # Library ~
 *ArtifactDB
-*SourceAssetDB
-*Artifacts
-*PlayerDataCache
+#SourceAssetDB
+#Artifacts
+#PlayerDataCache
 #*PackageCache
 #*BurstCache
 #Bee
