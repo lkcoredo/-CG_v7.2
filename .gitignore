@@ -12,16 +12,16 @@
 #3D
 #AI
 *AssetsIn
-*Character
+#Character
 #*Icon
-*Materials
+#Materials
 #Models
 #Prefabs
 #SavedData
 #Scripts
 #StoredData
 *Terrain
-*textures
+#textures
 
 # Library ~
 *ArtifactDB
